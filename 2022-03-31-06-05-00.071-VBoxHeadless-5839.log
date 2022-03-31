@@ -1,0 +1,12 @@
+Log created: 2022-03-31T06:05:00.715846000Z
+Process ID:  5839 (0x16cf)
+Parent PID:  1 (0x1)
+Executable:  /usr/lib/virtualbox/VBoxHeadless
+Arg[0]: /usr/lib/virtualbox/VBoxHeadless
+Arg[1]: --comment
+Arg[2]: blogDJANGO_default_1648695028895_73649
+Arg[3]: --startvm
+Arg[4]: 61acb683-0f50-4ca4-af2f-06371f667247
+Arg[5]: --vrde
+Arg[6]: config
+AddRef: illegal refcnt=3221225469 state=2
