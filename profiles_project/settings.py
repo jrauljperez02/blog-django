@@ -39,8 +39,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'profiles_api',
     'ckeditor',
-    'import_export'
+    'import_export',
 ]
+
+#CRISPY_TEMPLATE_PACK = 'boostrap4'
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

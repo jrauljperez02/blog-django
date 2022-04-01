@@ -1,6 +1,9 @@
 from django.shortcuts import render
 from profiles_api.models import Post, Category
 
+
+
+
 # Create your views here.
 def home(request):
 

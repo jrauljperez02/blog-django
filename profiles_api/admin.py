@@ -21,10 +21,14 @@ class CategoryAdmin(ImportExportModelAdmin,admin.ModelAdmin):
 
     resource_class = CategoryResources
 
+class AutorAdmin(ImportExportModelAdmin,admin.ModelAdmin):
+    search_fields = ['name']
+    list_display = ('name','state','creation_date')
 
+    resource_class = AutorResources
 
 
 
 admin.site.register(models.Category,CategoryAdmin)
-admin.site.register(models.Autor)
+admin.site.register(models.Autor,AutorAdmin)
 admin.site.register(models.Post)
